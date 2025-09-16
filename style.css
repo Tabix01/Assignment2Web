@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+* {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F7BA;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}ul > li > a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}ul > li > a:hover {
+    color: #F5D2D2;
+}
+
+
+
+
+#main-heading{
+    color: brown;
+    text-align: center;
+    margin-top: 2rem;
+    
+}.lorem {
+    color: brown;
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+}
+
+
+
+
+.imgContent{
+    padding-top: 80px;
+    
+}
+.highlight {
+    color: #3E0703;
+    flex: 1;
+}.imgText > h2 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+#myImage {
+    width: 500px;
+    border-radius: 8px;
+}
+.imgContent {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}.imgText {
+    text-align: left;
+}
+
+
+.Task11 {
+    width: 1200px;
+    margin: 0 auto;
+}.left_box {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: #F8F7BA;
+}.right_box {
+    width: 400px;
+    height: 400px;
+    background-color: #3E0703;
+    float: right;
+}.clear {
+    clear: both;
+}
